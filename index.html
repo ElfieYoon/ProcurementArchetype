@@ -5,7 +5,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Grand Bazaar Quest &middot; Find Your Procurement Archetype</title>
+  <title>The Grand Food Bazaar Quiz &middot; Find Your Procurement Archetype</title>
 
   <!-- ============================================================
        FONTS: Google Fonts - Cinzel Decorative, Cinzel, Poppins
@@ -827,34 +827,34 @@
 
       // ── Q1: Arrival — first instinct in an unfamiliar environment ──────────
       {
-        sc:'Gates',
-        q:"Your delivery notification flashes. Unexpectedly, you're pulled through the screen into the Grand Bazaar, along with a coin pouch and your confusion. What's your instinct?",
+        sc:'Entrance',
+        q:"You've just stepped into the Grand Food Bazaar —— it's crowded, loud, and a little overwhelming. What do you do first?",
         opts:[
-          {l:'A', t:'Observe how things are moving in the Bazaar before planning what to do.', sc:{0:3,1:1}},
-          {l:'B', t:'Approach a nearby merchant, explain your situation, and ask for honest clarity.',  sc:{1:3,2:1}},
-          {l:'C', t:'Look for an official sign or map that might lead you home.',                  sc:{2:3,0:1}}
+          {l:'A', t:'Observe how things are flowing.', sc:{0:3,1:1}},
+          {l:'B', t:'Talk to someone at the information counter to understand what is going on.',  sc:{1:3,2:1}},
+          {l:'C', t:'Look for an information board or guide to plan your route.',                  sc:{2:3,0:1}}
         ]
       },
 
       // ── Q2: Hunger — evaluating and choosing between options ───────────────
       {
         sc:'Food',
-        q:'Your stomach growls. You need energy to get home. Three snack stalls catch your eye. How do you pick?',
+        q:'Your stomach started to growl. You look at your watch and it's 3pm. There are 3 snack stalls that caught your eye.',
         opts:[
-          {l:'A', t:"The one with the longest queue. People don't lie about good food.",          sc:{2:3,1:1}},
-          {l:'B', t:'You ask nearby merchants which stall is worth your time.',     sc:{1:3,0:1}},
-          {l:'C', t:'You compare across all three for the best value for your coins.',     sc:{0:3,2:1}}
+          {l:'A', t:"Go with the stall with the longest queue.",          sc:{2:3,1:1}},
+          {l:'B', t:'Ask around before deciding.',     sc:{1:3,0:1}},
+          {l:'C', t:'Compare across the 3 stalls for the best value.',     sc:{0:3,2:1}}
         ]
       },
 
       // ── Q3: The creature — negotiating with an unknown party ───────────────
       {
         sc:'Creature',
-        q:'Midway through your snacks, a mythical creature senses that you are lost and offers to lead you home for a price. What do you offer?',
+        q:'You spot a trendy coffee stall with a large sign "Taste Challenge - Pay less if you win!" A tasting flight of 5 pour overs cost $20, but if you guess all 5 beans correctly, you only pay $5 —— and you'll also stand a chance to win an espresso machine. What do you do?',
         opts:[
-          {l:'A', t:'Gold coins, a simple and honest payment.',  sc:{2:3,1:1}},
-          {l:'B', t:"Your company, since coins seem unlikely to interest a creature like this.",     sc:{1:3,0:1}},
-          {l:'C', t:"A portion of your snacks, calculating that's a fair trade for its trouble.",                 sc:{0:3,1:1}}
+          {l:'A', t:'Play it safe. Pay $20 and skip the challenge.',  sc:{2:3,1:1}},
+          {l:'B', t:"Talk to the stall owner before deciding.",     sc:{1:3,0:1}},
+          {l:'C', t:"Don't question it. Just take on the challenge and trust your instincts.",                 sc:{0:3,1:1}}
         ]
       },
 
@@ -869,14 +869,14 @@
         ]
       },
 
-      // ── Q5: The portal — final reflection on values and identity ──────────
+      // ── Q5: Exit — final reflection on values and identity ──────────
       {
         sc:'Portal',
-        q:'A shimmering portal home appears. As you glance back at the Grand Bazaar, what crosses your mind?',
+        q:'You leave the Grand Food Bazaar, thinking about the choices you made along the way —— from where to go, what to buy, and whether to take risks. What best describes your approach?',
         opts:[
-          {l:'A', t:'Satisfied. Nothing made sense at first, but you worked it out.',          sc:{0:3,1:1}},
-          {l:'B', t:'Wistful. You hope for a next time to truly learn its stories and people.',          sc:{1:3,2:1}},
-          {l:'C', t:"Relieved. You stayed true to your values, now ready for the comfort of home.",              sc:{2:3,0:1}}
+          {l:'A', t:'I learn by having a plan and making calculated decisions.',          sc:{0:3,1:1}},
+          {l:'B', t:'I learn by engaging others, and understanding the market and trends.',          sc:{1:3,2:1}},
+          {l:'C', t:"I learn by weighing out my options, and making the best suitable decision on hand.",              sc:{2:3,0:1}}
         ]
       }
 
@@ -956,9 +956,9 @@
           {trait:'Builds <strong>lasting relationships</strong>', example:'Staying in touch, since you never know when it\'ll pay off'}
         ],
         composition:[
-          {pct:42, lbl:'Negotiation'},
-          {pct:33, lbl:'Influence'},
-          {pct:25, lbl:'Creativity'}
+          {pct:42, lbl:'Business Partnering'},
+          {pct:33, lbl:'Performance Management'},
+          {pct:25, lbl:'Influence'}
         ],
         complemented_by:[0,2],
         whyProcurement:'You read people as well as you read situations, and that\'s the heart of every great procurement relationship. Strong supplier partnerships, smart negotiations, and deals that work for everyone all start with someone who knows how to build trust quickly. In procurement, that instinct grows into real influence, the kind that shapes outcomes long after the contract is signed.',
