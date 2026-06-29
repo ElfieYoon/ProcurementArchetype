@@ -283,7 +283,7 @@
        iteration; current single results layout, no v1/v2 in use.)
        ============================================================ */
 
-    /* ---- Dark hero band ("You are" + character + aura + tag + name) ---- */
+    /* ---- ("You are" + character + aura + tag + name) ---- */
     .r2-hero{background:#757575;padding:9px 24px 22px;text-align:center;margin:-1px -1px 0;}
     .r2-ya{text-align:center;font-family:'Source Serif 4',serif;font-size:12px;font-weight:500;letter-spacing:2.5px;text-transform:uppercase;color:#f8f1e3;margin-bottom:4px}
 
@@ -348,7 +348,7 @@
     .r2-secondary-btn:active{background:#efe8d8;transform:translateY(0);box-shadow:0 2px 4px rgba(90,70,50,.14);}
 
     /* ============================================================
-       SPARKLE PARTICLES: Float up around character illustration
+       Sparkle Particles Illustration On The Top of Results Page
        ============================================================ */
     .spar{position:absolute;border-radius:50%;pointer-events:none;animation:sparF linear infinite}
     @keyframes sparF{0%{opacity:0;transform:translateY(0) scale(0)}18%{opacity:.7}80%{opacity:.3}100%{opacity:0;transform:translateY(-44px) scale(1.4)}}
@@ -378,7 +378,7 @@
 
 
     /* ============================================================
-       PROGRESS TRACK: Step indicator bar at top of question card
+       Progress Tracker for Each Question
        ============================================================ */
     #ptrack{display:flex;gap:7px;margin-bottom:14px}
     .pts{flex:1;height:4px;border-radius:2px;background:rgba(0,0,0,.09);transition:background .35s}
@@ -432,7 +432,7 @@
     }
 
     /* ============================================================
-       ARCHETYPES POSTER MODAL
+       ARCHETYPES POSTER
        Triggered by "Meet fellow travellers" button on results page.
        Shows the full poster PNG in a centred, scrollable overlay.
        ============================================================ */
@@ -483,7 +483,7 @@
   <div id="app">
 
     <!-- ============================================================
-         CARD 1: QUIZ START PAGE
+         QUIZ START PAGE
          Shown on page load. Describes the quiz and has the start button.
          ============================================================ -->
     <div class="card" id="iCard">
