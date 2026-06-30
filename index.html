@@ -849,7 +849,7 @@
       // rewritten to a coffee taste-challenge scenario — see QUESTION_IMAGES.)
       {
         sc:'Creature',
-        q:'You spot a trendy coffee stall with a large sign "Taste Challenge - Pay less if you win!" A tasting flight of 5 pour overs cost $20, but if you guess all 5 beans correctly, you only pay $5 — and you\'ll also stand a chance to win an espresso machine. What do you do?',
+        q:'You spot a award-winning specialty coffee stall with a large sign "Taste Challenge - Pay less if you win!" A tasting flight of 3 pour overs cost $20, but if you guess all 5 beans correctly, you get a full refund — and you\'ll also stand a chance to win a limited edition espresso machine. What do you do?',
         opts:[
           {l:'A', t:'Play it safe. Pay $20 and skip the challenge.',  sc:{2:1}},
           {l:'B', t:"Talk to the stall owner before deciding.",     sc:{1:1}},
@@ -862,18 +862,18 @@
       // merchant-dispute version of this question; content has since changed.)
       {
         sc:'Obstruction',
-        q:'Suddenly, someone bumps into you, spilling their coffee on your clothes. What do you do?',
+        q:'You accidentally bump into someone, spilling their coffee. What is your immediate response?',
         opts:[
-          {l:'A', t:'Ask them to help you clean up the mess.',          sc:{1:1}},
-          {l:'B', t:'Laugh it off and start a friendly conversation with them.',  sc:{0:1}},
-          {l:'C', t:"Weigh whether it's worth reacting, or simply let it go.", sc:{2:1}}
+          {l:'A', t:'Apologise and help clean up the mess.',          sc:{0:1}},
+          {l:'B', t:'Apologise and offer to pay for a new cup of coffee.',  sc:{1:1}},
+          {l:'C', t:"Apologise and ensure that they are okay before you head off.", sc:{2:1}}
         ]
       },
 
       // ── Q5: Exit — final reflection on values and identity ──────────
       {
         sc:'Portal',
-        q:'You leave the Grand Food Bazaar, thinking about the choices you made along the way — from where to go, what to buy, and whether to take risks. What best describes your approach?',
+        q:'You leave the Grand Food Bazaar, thinking about the choices you made along the way. What best describes your approach?',
         opts:[
           {l:'A', t:'I learn by having a plan and making calculated decisions.',          sc:{0:1}},
           {l:'B', t:'I learn by engaging others, and understanding the market and trends.',          sc:{1:1}},
